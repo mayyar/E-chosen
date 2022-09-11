@@ -41,7 +41,7 @@ const LoginScreen = () => {
 
   return (
     <KeyboardAvoidingView style={styles.container} behavior="padding">
-      <Text style={styles.text}>RN Social App</Text>
+      <Text style={styles.text}>E-chosen</Text>
 
       <View style={styles.inputContainer}>
         <TextInput placeholder="Email" value={email} onChangeText={(text) => setEmail(text)} style={styles.input} />
