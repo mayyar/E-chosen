@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { KeyboardAvoidingView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import React, { useState, useEffect } from 'react';
 import { auth } from '../firebase';
 import { useNavigation } from '@react-navigation/core';
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   text: {
-    fontFamily: 'Kufam-SemiBoldItalic',
+    // fontFamily: 'Kufam-SemiBoldItalic',
     fontSize: 28,
     marginBottom: 10,
     color: '#051d5f',
